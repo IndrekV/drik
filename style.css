@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url("fonts/CaviarDreams.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body { 
+  font: 400 1em/1.5 "Roboto";
+  background: #090d00; 
+  color: rgba(255,255,255,1); 
+  text-align: center; 
+  margin: 0 
+}
+
+.container {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 40px 0;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  width: 1000px;
+  border-bottom: 4px double rgba(255,255,255,1);
+}
+
+.title span {
+  font: 700 6em/1 "CaviarDreams", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+}
+
+span.main-title {
+  font-family: 'CaviarDreams';
+}
+
+.apps {
+  margin-top: 50px;
+}
+
+.app {
+  margin: 20px 0;
+}
+
+.app:hover {
+  opacity: 1;
+}
+
+.app:hover .links{
+  display: block!important;
+}
+
+.app .screenshot {
+  width: 128px;
+  height: 128px;
+  float: left;
+}
+
+.app .texts {
+  height: 128px;
+  float: left;
+  margin-left: 40px;
+  width: 832px;
+}
+
+.app-title {
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  width: 100%;
+  letter-spacing: 8px;
+  font-weight: normal;
+}
+
+.app-text {
+  text-align: left;
+  color: white;
+}
+
+.nomlog .screenshot {
+  background: url(images/nomlog128.png) no-repeat;
+}
