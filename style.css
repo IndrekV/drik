@@ -54,10 +54,11 @@ span.main-title {
 
 .app {
   margin: 20px 0;
+  float: left;
 }
 
 .app:hover {
-  opacity: 1;
+  background: #1b1b1b;
 }
 
 .app:hover .links{
