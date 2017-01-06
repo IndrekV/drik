@@ -95,3 +95,24 @@ span.main-title {
 .nomlog .screenshot {
   background: url(images/nomlog128.png) no-repeat;
 }
+
+/* Small width */
+@media (max-width: 1002px) {
+  .container, .container .title {
+    width: 100%;
+  }
+
+  .container .title {
+    padding: 0;
+  }
+
+  .app .screenshot, .app .texts {
+    display: table-cell;
+    float: none;
+  }
+
+  .app .texts {
+    width: auto;
+    padding-left: 40px;
+  }
+}
