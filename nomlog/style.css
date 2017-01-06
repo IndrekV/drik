@@ -152,6 +152,11 @@ h3 {
   color: #527a8a;
 }
 
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
 
 /* Small width */
 @media (max-width: 952px) {
