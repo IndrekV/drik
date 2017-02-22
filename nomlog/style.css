@@ -116,8 +116,11 @@ h3 {
 
 .main-bottom {
   background-color: #2998ff;
-  height: 500px;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 550px;
 }
 
 .main-bottom .textbox {
