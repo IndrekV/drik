@@ -13,8 +13,8 @@
 
 body { 
   font: 400 1em/1.5 "Roboto";
-  background: #090d00; 
-  color: rgba(255,255,255,1); 
+  background: #fff; 
+  color: #999; 
   text-align: center; 
   margin: 0 
 }
@@ -26,30 +26,39 @@ body {
 }
 
 .title {
-  margin: 40px 0;
+  margin: 10px 0;
   text-transform: uppercase;
   letter-spacing: .5em;
   display: inline-block;
   border-width: 4px 0;
-  padding: 1.5em 0em;
+  padding: 1.5em 20px;
   width: 1000px;
-  border-bottom: 4px double rgba(255,255,255,1);
+  border-bottom: solid 1px #dbdbdb;
 }
 
 .title span {
-  font: 700 6em/1 "CaviarDreams", sans-serif;
+  font: 700 3em/1 "CaviarDreams", sans-serif;
   letter-spacing: 0;
-  padding: .25em 0 .325em;
   display: block;
   margin: 0 auto;
+  text-align: left;
+}
+
+.title .subtitle {
+  float: left;
+  font-size:10px;
+}
+
+.title .subtitle a {
+  color: #999;
 }
 
 span.main-title {
   font-family: 'CaviarDreams';
 }
 
-.apps {
-  margin-top: 50px;
+.apps {
+  padding: 0 20px;
 }
 
 .app {
@@ -58,42 +67,75 @@ span.main-title {
 }
 
 .app:hover {
-  background: #1b1b1b;
+  background: #f3f3f3;
+  border-radius: 30px;
 }
 
 .app:hover .links{
   display: block!important;
 }
 
-.app .screenshot {
-  width: 128px;
-  height: 128px;
-  float: left;
-}
-
 .app .texts {
   height: 128px;
   float: left;
   margin-left: 40px;
-  width: 832px;
+  width: 615px;
+  margin: 25px 30px 0 30px;
 }
 
 .app-title {
+  font: 400 1em/1.5 "Roboto";
   font-size: 30px;
-  color: white;
+  color: black;
   text-align: left;
   width: 100%;
-  letter-spacing: 8px;
-  font-weight: normal;
+  letter-spacing: 4px;
 }
 
 .app-text {
+  font-family: "Roboto";
+  font-weight: 100;
   text-align: left;
-  color: white;
+  color: #6b6969;
+}
+
+.app .screenshot {
+  width: 250px;
+  height: 250px;
+  float: left;
+  border-radius: 20px;
+}
+
+.app .icon {
+  width: 64px;
+  height: 64px;
+  float: left;
+  margin-left: -32px;
+  margin-top: 170px;
+}
+
+.app:nth-child(2) .screenshot,
+.app:nth-child(2) .icon,
+.app:nth-child(2) .text {
+  float:right;
+}
+
+.app:nth-child(2) .icon {
+  margin-right: -32px;
 }
 
 .nomlog .screenshot {
-  background: url(images/nomlog128.png) no-repeat;
+  background: url(images/nomlog_screen.png) no-repeat;
+}
+.nomlog .icon {
+  background: url(images/nomlog_icon.png) no-repeat;
+}
+
+.misbiit .screenshot {
+  background: url(images/misbiit_screen.png) no-repeat;
+}
+.misbiit .icon {
+  background: url(images/misbiit_icon.png) no-repeat;
 }
 
 /* Small width */
@@ -111,8 +153,26 @@ span.main-title {
     float: none;
   }
 
+  .app .screenshot {
+    width: 250px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+  }
+
+  .app .icon {
+    position: absolute;
+    left: 50%;
+    margin-left: -157px;
+  }
+
+  .app {
+    padding: 20px;
+  }
+
   .app .texts {
     width: auto;
-    padding-left: 40px;
+    padding-top: 280px;
   }
 }
