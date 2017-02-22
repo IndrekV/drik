@@ -180,7 +180,7 @@ h3 {
   }
 
   .main .content .textbox {
-    top: 35px;
+    top: 70px;
     z-index: 2;
   }
 
@@ -191,13 +191,11 @@ h3 {
 
   .phone {
     left: 50%;
-    width: 224px;
-    margin-left: -130px;
-    top: 160px;
+    margin-left: -141px;
+    top: 190px;
     background: none;
     height: 295px;
     overflow: hidden;
-    padding: 20px;
     z-index: 1;
   }
 
