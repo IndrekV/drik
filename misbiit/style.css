@@ -4,6 +4,11 @@ html,body {
   height: 100%;
   font-family:'Helvetica Neue';
   color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
 }
 
 h1 {
@@ -16,6 +21,10 @@ h3 {
 .header {
   height: 100px;
   background-color: #292448;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header .title {
@@ -109,10 +118,11 @@ h3 {
   padding: 20px 0;
   font-size: 12px;
   text-align: center;
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+  background: white;
+  z-index: 3;
 }
 
 .footer .content {
@@ -187,6 +197,10 @@ h3 {
   .main .content .textbox .stores {
     text-align: center;
     margin-top: 300px;
+  }
+
+  .main-top {
+    height: 600px;
   }
 
   .phone {
