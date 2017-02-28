@@ -9,6 +9,7 @@ html,body {
   left: 0;
   right: 0;
   bottom:0;
+  background: #292448;
 }
 
 h1 {
@@ -21,10 +22,6 @@ h3 {
 .header {
   height: 100px;
   background-color: #292448;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 .header .title {
@@ -50,15 +47,22 @@ h3 {
   margin: 0 auto;
   width: 952px;
   height: 100%;
-  background-color: #fff;
 }
 
 .header .content {
   background-color: #292448;
 }
 
+.main > .content {
+  height: 400px;
+}
+
+.main > .content > .textbox {
+  padding-top: 100px;  
+}
+
+
 .textbox {
-  position: absolute;
   font-weight: 100;
   top: 180px;
   width: 400px;
@@ -138,16 +142,11 @@ h3 {
 
 .main-bottom {
   background-color: #fff;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 600px;
 }
 
 .main-bottom .textbox {
   color: #000;
-  top: 100px;
+  padding-top: 50px;
   width: 550px;
 }
 
@@ -185,6 +184,12 @@ h3 {
 
 /* Small width */
 @media (max-width: 952px) {
+  .main > .content {
+    height: 450px;
+  }
+  .main > .content > .textbox {
+    padding-top: 0;
+  }
   .textbox, .content {
     width: 80%!important;
   }
@@ -196,7 +201,7 @@ h3 {
 
   .main .content .textbox .stores {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 250px;
   }
 
   .main-top {
@@ -206,7 +211,7 @@ h3 {
   .phone {
     left: 50%;
     margin-left: -141px;
-    top: 190px;
+    top: 235px;
     background: none;
     height: 295px;
     overflow: hidden;
