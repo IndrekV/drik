@@ -213,7 +213,6 @@ h3 {
 
   .main .content .textbox .stores {
     text-align: center;
-    margin-top: 250px;
   }
 
   .main-top {
@@ -223,25 +222,27 @@ h3 {
   .phone {
     left: 50%;
     margin-left: -141px;
-    top: 235px;
-    background: none;
+    top: 255px;
     height: 295px;
     overflow: hidden;
     z-index: 1;
   }
 
   .screenshot {
-    width: 220px;
-    transform: none;
-    z-index: -1;
-    -webkit-box-shadow: 0px 0px 20px 5px rgba(71,70,71,0.59);
-    -moz-box-shadow: 0px 0px 20px 5px rgba(71,70,71,0.59);
-    box-shadow: 0px 0px 20px 5px rgba(71,70,71,0.59);
-    border-bottom: none;
-    border-radius: 15px;
-    border: 2px solid #d8d8d8;
+
+  }
+  .stores {
+    position: absolute;
+    z-index: 5;
+    top: 525px;
+    width: 280px;
+    left: 50%;
+    margin-left: -140px;
   }
   .stores p {
     max-width: 45%;
+  }
+  .stores p img {
+    background-color: #292448;
   }
 }
