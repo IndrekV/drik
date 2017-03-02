@@ -5,8 +5,8 @@ html,body {
   font-family:'Helvetica Neue';
   background-color: #fff;
   color: white;
+  background-color: #2998ff;
 }
-
 
 h1 {
   font-size: 72px;
@@ -15,6 +15,11 @@ h1 {
 h3 {
   font-size: 22px;
 }
+
+.wrap {
+  min-height: 100%;
+}
+
 .header {
   box-shadow: 0 1px 0 rgba(0,20,51,.03);
   background: #fff;
@@ -37,6 +42,10 @@ h3 {
   height: 100%;
 }
 
+.main {
+  background-color: #fff;
+}
+
 .main > .content {
   height: 500px;
 }
@@ -54,6 +63,7 @@ h3 {
 .textbox h3 {
   font-size: 28px;
   font-weight: 200;
+  padding-bottom: 40px;
 }
 
 .textbox p {
@@ -151,7 +161,6 @@ h3 {
   color: white;
   text-decoration: none;
 }
-
 
 /* Small width */
 @media (max-width: 952px) {
