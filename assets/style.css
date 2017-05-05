@@ -138,6 +138,13 @@ span.main-title {
   background: url(images/misbiit_icon.png) no-repeat;
 }
 
+.fruityfingers .screenshot {
+  background: url(images/fruityfingers_screen.png) no-repeat;
+}
+.fruityfingers .icon {
+  background: url(images/fruityfingers_icon.png) no-repeat;
+}
+
 /* Small width */
 @media (max-width: 1002px) {
   .container, .container .title {
