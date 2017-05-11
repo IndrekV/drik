@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'CaviarDreams';
-  src: url("fonts/CaviarDreams.ttf") format("truetype");
+  font-family: 'Armata';
+  src: url("fonts/Armata-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .title span {
-  font: 700 3em/1 "CaviarDreams", sans-serif;
+  font: 100 3em/1 "Armata", sans-serif;
   letter-spacing: 0;
   display: block;
   margin: 0 auto;
@@ -54,7 +54,7 @@ body {
 }
 
 span.main-title {
-  font-family: 'CaviarDreams';
+  font-family: 'Dosis';
 }
 
 .apps {
@@ -114,13 +114,13 @@ span.main-title {
   margin-top: 170px;
 }
 
-.app:nth-child(2) .screenshot,
-.app:nth-child(2) .icon,
-.app:nth-child(2) .text {
+.app:nth-child(even) .screenshot,
+.app:nth-child(even) .icon,
+.app:nth-child(even) .text {
   float:right;
 }
 
-.app:nth-child(2) .icon {
+.app:nth-child(even) .icon {
   margin-right: -32px;
 }
 
@@ -143,6 +143,26 @@ span.main-title {
 }
 .fruityfingers .icon {
   background: url(images/fruityfingers_icon.png) no-repeat;
+  border: 1px solid #fdfdfd;
+  border-radius: 10px;
+}
+
+.triggerreflex .screenshot {
+  background: url(images/triggerreflex_screen.png) no-repeat;
+}
+.triggerreflex .icon {
+  background: url(images/triggerreflex_icon.png) no-repeat;
+  border: 1px solid #fdfdfd;
+  border-radius: 10px;
+}
+
+.presidendijooks .screenshot {
+  background: url(images/presidendijooks_screen.png) no-repeat;
+}
+.presidendijooks .icon {
+  background: url(images/presidendijooks_icon.png) no-repeat;
+  border: 1px solid #fdfdfd;
+  border-radius: 10px;
 }
 
 /* Small width */
