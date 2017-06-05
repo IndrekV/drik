@@ -165,6 +165,15 @@ span.main-title {
   border-radius: 10px;
 }
 
+.lovenote .screenshot {
+  background: url(images/lovenote_screen.png) no-repeat;
+}
+.lovenote .icon {
+  background: url(images/lovenote_icon.png) no-repeat;
+  border: 1px solid #aa0000;
+  border-radius: 10px;
+}
+
 /* Small width */
 @media (max-width: 1002px) {
   .container, .container .title {
