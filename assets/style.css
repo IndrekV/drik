@@ -174,6 +174,15 @@ span.main-title {
   border-radius: 10px;
 }
 
+.colorskip .screenshot {
+  background: url(images/colorskip_screen.png) no-repeat;
+}
+.colorskip .icon {
+  background: url(images/colorskip_icon.png) no-repeat;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
 /* Small width */
 @media (max-width: 1002px) {
   .container, .container .title {
