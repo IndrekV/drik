@@ -183,6 +183,15 @@ span.main-title {
   border-radius: 10px;
 }
 
+.letsgo .screenshot {
+  background: url(images/letsgo_screen.png) no-repeat;
+}
+.letsgo .icon {
+  background: url(images/letsgo_icon.png) no-repeat;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
 /* Small width */
 @media (max-width: 1002px) {
   .container, .container .title {
