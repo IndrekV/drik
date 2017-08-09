@@ -1,0 +1,222 @@
+html,body { 
+  margin: 0; 
+  padding: 0; 
+  height: 100%;
+  font-family:'Helvetica Neue';
+  color: white;
+  background-color: #2a8efe;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #fff;
+}
+
+.wrap {
+  min-height: 100%;
+}
+
+.header {
+  background: #2a8efe;
+  height: 50px;
+}
+
+.header .title {
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 952px;
+  height: 100%;
+}
+
+.main {
+  background-color: #2a8efe;
+}
+
+.main > .content {
+  height: 500px;
+}
+
+.main > .content > .textbox {
+  padding-top: 155px;  
+}
+
+.textbox {
+  color: #000;
+  font-weight: 100;
+  width: 400px;
+}
+
+.textbox h3 {
+  font-size: 28px;
+  font-weight: 200;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+.textbox p {
+  font-size: 20px;
+  font-weight: 100;
+  float: left;
+}
+
+.stores p {
+  width: 150px;
+}
+
+.stores img {
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.37);
+  border-radius: 5px;
+}
+
+.stores a:hover img{
+  border: 1px solid rgba(128, 128, 128, 0.7);
+}
+
+.phone {
+  background-image: url(img/iphone.png);
+  width: 283px;
+  height: 660px;
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 140px;
+  margin-left: 600px;
+  z-index: 1;
+}
+
+.screenshot {
+  transform: perspective(283px) rotateY(-3.7deg) scale(.667,.731) translate(-23.5%,-2.5%);
+  width: 376px;
+}
+
+.footer {
+  margin-top: 30px;
+  padding: 20px 0;
+  font-size: 12px;
+  text-align: center;
+  background: #2a8efe;
+}
+
+.footer .content {
+  font-weight: 100;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.main-bottom {
+  background-color: #2a8efe;
+}
+
+.main-bottom .textbox {
+  color: #fff;
+  padding-top: 100px;
+  width: 550px;
+}
+
+.main-bottom .textbox ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main-bottom .textbox ul li {
+  margin-bottom: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.main-bottom .textbox ul li span {
+  font-weight: 200;
+}
+
+.hashtag {
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.hashtag p a {
+  text-decoration: none;
+  color: #527a8a;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Small width */
+@media (max-width: 952px) {
+  .main > .content > .textbox {
+    padding-top: 0;
+  }
+  .textbox, .content {
+    width: 80%!important;
+  }
+
+  .main .content .textbox {
+    top: 35px;
+    z-index: 2;
+  }
+
+  .main .content .textbox .stores {
+    text-align: center;
+  }
+
+  .phone {
+    background: url(../misbiit/img/iphone.png);
+    left: 50%;
+    margin-left: -141px;
+    top: 180px;
+    height: 545px;
+    overflow: hidden;
+    z-index: 1;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .screenshot {
+    transform: none;
+    width: 211px;
+    position: relative;
+    top: 74px;
+    height: 372px;
+    right: -36px;
+  }
+
+  .stores {
+    position: absolute;
+    z-index: 5;
+    top: 525px;
+    width: 280px;
+    left: 50%;
+    margin-left: -140px;
+  }
+
+  .stores p {
+    max-width: 45%;
+    width: 126px;
+    position: relative;
+    left: 50%;
+    margin-left: -63px;
+    margin-top: 180px;
+  }
+
+  .main > .content {
+    height: 630px;
+  }
+}
