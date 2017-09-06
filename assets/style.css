@@ -192,6 +192,15 @@ span.main-title {
   border-radius: 10px;
 }
 
+.annoy .screenshot {
+  background: url(images/annoy_screen.png) no-repeat;
+}
+.annoy .icon {
+  background: url(images/annoy_icon.png) no-repeat;
+  border: 1px solid #d43e3e;
+  border-radius: 10px;
+}
+
 /* Small width */
 @media (max-width: 1002px) {
   .container, .container .title {
