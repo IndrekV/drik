@@ -210,6 +210,15 @@ span.main-title {
   border-radius: 10px;
 }
 
+.circlebox .screenshot {
+  background: url(images/circlebox_screen.png) no-repeat;
+}
+.circlebox .icon {
+  background: #f2f4f5 url(images/circlebox_icon.png) no-repeat center center;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+}
+
 /* Small width */
 @media (max-width: 1002px) {
   .container, .container .title {
