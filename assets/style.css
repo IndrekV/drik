@@ -260,6 +260,7 @@ span.main-title {
 
   .app {
     padding: 20px;
+    text-decoration: none;
   }
 
   .app .texts {
