@@ -76,7 +76,8 @@ h3 {
   height: auto;
   position: absolute;
   top: 280px;
-  margin-left: 330px;
+  margin-left: -150px;
+  left: 50%;
   z-index: 1;
 }
 
@@ -89,12 +90,13 @@ h3 {
 .textbox h3 {
   font-size: 28px;
   font-weight: 200;
-  padding-bottom: 40px;
+  padding: 0 30px 40px;
 }
 
 .textbox .subtitle {
   text-align: center;
   font-size: 24px;
+  padding: 0 30px;
 }
 
 .textbox p {
@@ -284,12 +286,15 @@ h3 {
 @media (max-width: 952px) {
   .mobile-scenes {
     display: block;
+    padding: 0 30px;
   }
   .scenes {
     display: none;
   }
   .main, .main > .content {
     height: 450px;
+    position: relative;
+    overflow: hidden;
   }
   .main > .content > .textbox {
     padding-top: 0;
@@ -324,13 +329,14 @@ h3 {
     padding-top: 300px;
   }
 
-  .screenshot {
-
+  .main .screenshot {
+    top: 185px;
   }
+
   .stores {
     position: absolute;
     z-index: 5;
-    top: 325px;
+    top: 185px;
     width: 280px;
     left: 50%;
     margin-left: -140px;
