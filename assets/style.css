@@ -228,6 +228,15 @@ span.main-title {
   border-radius: 10px;
 }
 
+.tapandsnow .screenshot {
+  background: url(images/tapandsnow_screen.png) no-repeat;
+}
+.tapandsnow .icon {
+  background: #8fcff3 url(images/tapandsnow_icon.png) no-repeat center center;
+  border: 1px solid #8fcff3;
+  border-radius: 10px;
+}
+
 /* Small width */
 @media (max-width: 1002px) {
   .container, .container .title {
