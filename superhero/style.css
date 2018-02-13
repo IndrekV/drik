@@ -1,0 +1,92 @@
+html,body { 
+  margin: 0; 
+  padding: 0; 
+  height: 100%;
+  font-family:'Helvetica Neue';
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  background: #000;
+   background-image:
+    radial-gradient(
+      #f85032,
+      #e73827
+    );
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.hero {
+  display: none;
+}
+.hero.active {
+  display: block;
+}
+.hero .text, .hero .name {
+  display: none;
+}
+.selected.hero .text, .selected.hero .name {
+  display: block;
+}
+.hero .name {
+  padding: 10px 0;
+  font-size: 70px;
+}
+.hero .text {
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-size: 40px;
+}
+.hero img {
+  max-height: 350px;
+}
+
+.button {
+  display: none;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  vertical-align: middle;
+  font-size: 48px;
+  border-radius: 100px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 60px auto;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.button.active {
+  display: block;
+}
+
