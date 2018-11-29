@@ -325,6 +325,11 @@ h3 {
   text-align: center;
 }
 
+.close-popup:hover {
+  color: #940000;
+  background-color: #ffffff;
+}
+
 /* Small width */
 @media (max-width: 952px) {
   .mobile-scenes {
