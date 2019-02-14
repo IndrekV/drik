@@ -55,8 +55,10 @@ document.addEventListener('DOMContentLoaded', function () {
   startButton.addEventListener('click', function (e) {
     startButton.classList.remove("active");
     stopButton.classList.add("active");
-    document.querySelector(".hero.selected").classList.remove("selected");
-    document.querySelector(".hero.active").classList.remove("active");
+    if (!!document.querySelector(".hero.selected")) {
+      document.querySelector(".hero.selected").classList.remove("selected");
+      document.querySelector(".hero.active").classList.remove("active");
+    }
     count = 0;
     interval = setInterval(cycle, 300);
   });
