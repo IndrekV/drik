@@ -125,114 +125,114 @@ span.main-title {
 }
 
 .nomlog .screenshot {
-  background: url(images/nomlog_screen.png) no-repeat;
+  background: url(../images/nomlog_screen.png) no-repeat;
 }
 .nomlog .icon {
-  background: url(images/nomlog_icon.png) no-repeat;
+  background: url(../images/nomlog_icon.png) no-repeat;
 }
 
 .misbiit .screenshot {
-  background: url(images/misbiit_screen.png) no-repeat;
+  background: url(../images/misbiit_screen.png) no-repeat;
 }
 .misbiit .icon {
-  background: url(images/misbiit_icon.png) no-repeat;
+  background: url(../images/misbiit_icon.png) no-repeat;
 }
 
 .fruityfingers .screenshot {
-  background: url(images/fruityfingers_screen.png) no-repeat;
+  background: url(../images/fruityfingers_screen.png) no-repeat;
 }
 .fruityfingers .icon {
-  background: url(images/fruityfingers_icon.png) no-repeat;
+  background: url(../images/fruityfingers_icon.png) no-repeat;
   border: 1px solid #fdfdfd;
   border-radius: 10px;
 }
 
 .triggerreflex .screenshot {
-  background: url(images/triggerreflex_screen.png) no-repeat;
+  background: url(../images/triggerreflex_screen.png) no-repeat;
 }
 .triggerreflex .icon {
-  background: url(images/triggerreflex_icon.png) no-repeat;
+  background: url(../images/triggerreflex_icon.png) no-repeat;
   border: 1px solid #fdfdfd;
   border-radius: 10px;
 }
 
 .presidendijooks .screenshot {
-  background: url(images/presidendijooks_screen.png) no-repeat;
+  background: url(../images/presidendijooks_screen.png) no-repeat;
 }
 .presidendijooks .icon {
-  background: url(images/presidendijooks_icon.png) no-repeat;
+  background: url(../images/presidendijooks_icon.png) no-repeat;
   border: 1px solid #fdfdfd;
   border-radius: 10px;
 }
 
 .lovenote .screenshot {
-  background: url(images/lovenote_screen.png) no-repeat;
+  background: url(../images/lovenote_screen.png) no-repeat;
 }
 .lovenote .icon {
-  background: url(images/lovenote_icon.png) no-repeat;
+  background: url(../images/lovenote_icon.png) no-repeat;
   border: 1px solid #aa0000;
   border-radius: 10px;
 }
 
 .colorskip .screenshot {
-  background: url(images/colorskip_screen.png) no-repeat;
+  background: url(../images/colorskip_screen.png) no-repeat;
 }
 .colorskip .icon {
-  background: url(images/colorskip_icon.png) no-repeat;
+  background: url(../images/colorskip_icon.png) no-repeat;
   border: 1px solid #fff;
   border-radius: 10px;
 }
 
 .letsgo .screenshot {
-  background: url(images/letsgo_screen.png) no-repeat;
+  background: url(../images/letsgo_screen.png) no-repeat;
 }
 .letsgo .icon {
-  background: url(images/letsgo_icon.png) no-repeat;
+  background: url(../images/letsgo_icon.png) no-repeat;
   border: 1px solid #fff;
   border-radius: 10px;
 }
 
 .annoy .screenshot {
-  background: url(images/annoy_screen.png) no-repeat;
+  background: url(../images/annoy_screen.png) no-repeat;
 }
 .annoy .icon {
-  background: url(images/annoy_icon.png) no-repeat;
+  background: url(../images/annoy_icon.png) no-repeat;
   border: 1px solid #d43e3e;
   border-radius: 10px;
 }
 
 .timebite .screenshot {
-  background: url(images/timebite_screen.png) no-repeat;
+  background: url(../images/timebite_screen.png) no-repeat;
 }
 .timebite .icon {
-  background: #f2f4f5 url(images/timebite_icon.png) no-repeat center center;
+  background: #f2f4f5 url(../images/timebite_icon.png) no-repeat center center;
   border: 1px solid #a6a6a6;
   border-radius: 10px;
 }
 
 .circlebox .screenshot {
-  background: url(images/circlebox_screen.png) no-repeat;
+  background: url(../images/circlebox_screen.png) no-repeat;
 }
 .circlebox .icon {
-  background: #f2f4f5 url(images/circlebox_icon.png) no-repeat center center;
+  background: #f2f4f5 url(../images/circlebox_icon.png) no-repeat center center;
   border: 1px solid #a6a6a6;
   border-radius: 10px;
 }
 
 .luule .screenshot {
-  background: url(images/luule_screen.png) no-repeat;
+  background: url(../images/luule_screen.png) no-repeat;
 }
 .luule .icon {
-  background: #f2f4f5 url(images/luule_icon.png) no-repeat center center;
+  background: #f2f4f5 url(../images/luule_icon.png) no-repeat center center;
   border: 1px solid #ffffff;
   border-radius: 10px;
 }
 
 .tapandsnow .screenshot {
-  background: url(images/tapandsnow_screen.png) no-repeat;
+  background: url(../images/tapandsnow_screen.png) no-repeat;
 }
 .tapandsnow .icon {
-  background: #8fcff3 url(images/tapandsnow_icon.png) no-repeat center center;
+  background: #8fcff3 url(../images/tapandsnow_icon.png) no-repeat center center;
   border: 1px solid #8fcff3;
   border-radius: 10px;
 }
@@ -276,4 +276,13 @@ span.main-title {
     width: auto;
     padding-top: 280px;
   }
+}
+
+.links {
+  float: right;
+}
+
+.links i {
+  font-size: 30px;
+  color: #999;
 }
